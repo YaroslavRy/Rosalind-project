@@ -1,1 +1,1 @@
-# Rosalind-project
+# Rosalind project
