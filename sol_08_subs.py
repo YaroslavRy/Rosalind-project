@@ -1,5 +1,3 @@
-import os
-
 '''
 Given two strings ss and tt, tt is a substring of ss if tt is contained as a contiguous collection of symbols in ss (as a result, tt must be no longer than ss).
 
@@ -21,10 +19,12 @@ Sample Output
 2 4 10
 '''
 
+import os
+
 def read_data(path):
 	if path == None:
 		r = '''GATATATGCATATACTT
-			   ATAT'''
+		ATAT'''
 	else:
 		f = open(path)
 		r = f.read()
@@ -48,4 +48,3 @@ if __name__ == '__main__':
 	locations = get_locations(s, t)
 	locations_str = ' '.join(map(str, locations))
 	print(locations_str)
-		
