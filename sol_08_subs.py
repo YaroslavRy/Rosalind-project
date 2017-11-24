@@ -39,7 +39,6 @@ def get_locations(s, t):
 	for i in range(len_s - 1):
 		if s[i:i+len_t] == t:
 			locations.append(i+1)
-
 	return locations
 
 if __name__ == '__main__':
