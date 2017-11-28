@@ -38,17 +38,15 @@ def get_consenus(data):
 	inst = []
 	for i in data:
 		inst.append(Seq(data[i]))
-
 	m = motifs.create(inst)
 	print(m.consensus)
 	count_matrix = m.counts
 	for key, value in count_matrix.items():
-		print("".join(key + ': ' + ' '.join(map(str, value))))
+		print(''.join(key + ': ' + ' '.join(map(str, value))))
 
 
 if __name__ == '__main__':
 	path_to_file = os.path.join(os.path.dirname(__file__), 'data/rosalind_cons.txt')
 	data = read_data(path=path_to_file)
 	get_consenus(data)
-
 
