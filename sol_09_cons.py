@@ -38,7 +38,9 @@ def get_consenus(data):
 	inst = []
 	for i in data:
 		inst.append(Seq(data[i]))
+
 	m = motifs.create(inst)
+	print(m.consensus)
 	count_matrix = m.counts
 	for key, value in count_matrix.items():
 		return "".join(key + ': ' + ' '.join(map(str, value)))
