@@ -1,3 +1,5 @@
+# coding: utf-8
+
 '''
 Given: Positive integers n≤40n≤40 and k≤5k≤5.
 

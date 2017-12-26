@@ -1,3 +1,5 @@
+# coding: utf-8
+
 from Bio import motifs
 from Bio.Seq import Seq
 import os
