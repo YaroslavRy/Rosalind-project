@@ -21,11 +21,8 @@ Rosalind_0808
 '''
 
 
-
 import os
 
-
-my_path = "C:/Users/nemoSys/Downloads/tmp/rosalind_gc.txt"
 
 def parse_data(path_to_file=None):
     if path_to_file == None:
