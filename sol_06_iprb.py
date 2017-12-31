@@ -6,6 +6,7 @@ def read_data(path):
     r = f.read()
     s = r.split()
     return s
+
     
 def calc_prob(population):
     homo_dominant = int(population[0])

@@ -17,6 +17,7 @@ MAMAPRTEINSTRING
 
 import os
 
+
 RNA_CODON_TABLE = {
 	'UUU': 'F',     'CUU': 'L',     'AUU': 'I',     'GUU': 'V',
 	'UUC': 'F',     'CUC': 'L',     'AUC': 'I',     'GUC': 'V',

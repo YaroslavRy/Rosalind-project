@@ -20,6 +20,7 @@
 
 import os
 
+
 def read_data(path):
 	if path == None:
 		r = '''GATATATGCATATACTT
@@ -39,6 +40,7 @@ def get_locations(s, t):
 		if s[i:i+len_t] == t:
 			locations.append(i+1)
 	return locations
+
 
 if __name__ == '__main__':
 	path_to_file = os.path.join(os.path.dirname(__file__), 'data/rosalind_subs.txt')

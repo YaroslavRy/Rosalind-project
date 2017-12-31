@@ -51,4 +51,3 @@ if __name__ == '__main__':
 	path_to_file = os.path.join(os.path.dirname(__file__), 'data/rosalind_cons.txt')
 	data = read_data(path=path_to_file)
 	get_consenus(data)
-
