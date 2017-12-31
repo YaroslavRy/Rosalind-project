@@ -1,3 +1,6 @@
+# coding: utf-8
+
+
 import os
 
 
@@ -30,5 +33,6 @@ def calc_prob(population):
 
 if __name__ == '__main__':
 	path_to_file = os.path.join(os.path.dirname(__file__), 'data/rosalind_iprb.txt')
-	pop = read_data(path_to_file)
+    pop = read_data(path_to_file)
+    print(pop)
 	calc_prob(pop)

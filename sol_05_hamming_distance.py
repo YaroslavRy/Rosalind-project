@@ -1,4 +1,8 @@
-path_to_file = "C:/Users/nemoSys/Downloads/tmp/rosalind_hamm.txt"
+# coding: utf-8
+
+
+import os
+
 
 def calc_hamming_distance(path_to_file):
     if path_to_file == None:
@@ -16,4 +20,7 @@ def calc_hamming_distance(path_to_file):
             diff_counter += 1
     return diff_counter
 
-calc_hamming_distance(path_to_file)
+
+if __name__ == '__main__':
+    path_to_file = os.path.join(os.path.dirname(__file__), 'data/rosalind_hamm.txt')
+    print(calc_hamming_distance(path_to_file))
