@@ -15,6 +15,7 @@ Sample Output
 
 import os
 
+
 def read_data(path):
 	if path == None:
 		r = '''5 3'''
